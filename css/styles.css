@@ -15,4 +15,23 @@ img {
   margin: 50px;
 }
 
-h3 {padding: 25px;}
+#border {
+  border-style: solid;
+  border-width:thick;
+  border-top-color: yellow;
+  border-right-color: rgb(0, 247, 255);
+  border-bottom-color: yellow;
+  border-left-color: lime;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+#JavaScript, #Python, #Ruby {
+  display: none;
+}
