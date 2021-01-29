@@ -35,3 +35,7 @@ h1 {
 #JavaScript, #Python, #Ruby {
   display: none;
 }
+
+#StartBtn {
+  margin-top: 20px;
+}
