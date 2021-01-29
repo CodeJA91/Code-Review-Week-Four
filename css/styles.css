@@ -5,3 +5,14 @@ body {
   text-align: center;
   font-family: sans-serif;
 }
+
+img {
+  width: 30%;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: rgb(10, 168, 207);
+  border-width: medium;
+  margin: 50px;
+}
+
+h3 {padding: 25px;}
