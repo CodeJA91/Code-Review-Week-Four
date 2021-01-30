@@ -2,59 +2,62 @@ $(document).ready(function() {
     
   $('#StartBtn').click(function() {
     
-    let qCatToyInput = prompt('What is your favorite cat toy?');
+    let qCatToyInput = prompt('What is your favorite object of extended and intense observation?');
     
     alert('Hmm..Interesting');
     
     // ----------------------------------------------------------------------
     
-    let qLikeDogsInput = confirm('As a fellow feline, do you think dogs are simply "OK"?...Or maybe you think the outrage mob on Whisker® ought to "Cancel" them?');
+    let qLikeDogsInput = confirm('As a fellow feline, do you think dogs are simply "OK" to be within eyeshot?...Or maybe you think the outrage mob on Whisker® ought to "Cancel" them?');
     
     if (qLikeDogsInput === false) {
       $(alert('A fellow feline of sophistication indeed!'));
     } else {
       $(alert('Hmm...I would say your priorities are bit...off. This will definitely impact your answer.'));
-    }
+    } 
     
     // ----------------------------------------------------------------------
     
-    let qCatBellyRubsInput = parseInt(prompt('From 1 to 3, exactly how many belly rubs are allowed until the "clawAndBite" function is called?'));
-
+    let qCatBellyRubsInput = parseInt(prompt('From 1 to 3, exactly how many belly rubs are allowed until the "clawAndBite()" function is called?'));
     if (qCatBellyRubsInput === 1) {
-      $(alert('A bit much, do you not agree?'));
+      $(alert('Indeed...although, still a bit much, do you not agree?'));
       $('#JavaScript').hide();
       $('#Ruby').hide();
       $('#Python').show();
     } else if (qCatBellyRubsInput === 2) {
-      $(alert('Indeed! How dare the authorities commit such an atrocity!'));
+      $(alert('How dare the authorities commit such an atrocity!'));
       $('#JavaScript').hide();
       $('#Ruby').show();
       $('#Python').hide();
-    } else {
-      $(alert('Consider that YOU are contributor to the misinterpretation of the "One-Too-Many-Rubs" policy problem...'));
+    } else if (qCatBellyRubsInput === 3) {
+      $(alert('Consider that YOU are contributing to the "One-Too-Many-Rubs" policy problem...'));
       $('#JavaScript').show();
       $('#Ruby').hide();
       $('#Python').hide();
+    } else (qCatBellyRubsInput = String) 
+      let qCatBellyRubsString = (confirm('Good sir, since when did letters take the place of numerals? Do you like breaking the rules?'));
+    
+    
+    // ----------------------------------------------------------------------
+    
+    let qIndoorOutdoorInput = confirm('You enjoy the smell of a wet douglas fir as you defecate out in the great open litterbox?');
+    if (qIndoorOutdoorInput === true) {
+      $(alert('I see you are a cat with highly developed tastes.'));
+    } else {
+      $(alert(' Well I for one find it almost intoxicatedly splendid'));
+    }
+    
+    // ----------------------------------------------------------------------
+    
+    let qCatchDotInput = confirm('You frequently try and catch the phase-shifting red photon! Is it okay to assume this is what you do in your extracurricular activities?');
+    
+    if (qCatchDotInput === true) {
+      $(alert('I see you are a cat with highly developed tastes.'));
+    } else {
+      $(alert('Well I for one find it intoxicatedly splendid!'));
     }
     
     
-    
-    let qIndoorOutdoorInput = confirm('You enjoy the smell of a wet douglas fir as you defecate out in the great open litterbox?');
-    
-    let qCatchDotInput = confirm('You try and catch the phase-shifting red photon!');
-    
-
-
-
-
-
-
-
-
-
     alert('All Done! Check Below!');
   });
-
-
-
 });
