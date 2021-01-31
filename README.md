@@ -15,7 +15,7 @@
 
 ## Description
 
-This repository contains HTML files, and sub-folders that contains assets, to which those HTML files reference, such as: styles.css, bootstrap.css, scripts.js, and jquery-3.5.1.js. The purpose of this project is to demonstrate my current skill and knowledge of HTML, CSS, Javacript, and jQuery, as well as document my progress, during my time learning at Epicodus.
+This repository contains HTML files, and sub-folders that contains assets, to which those HTML files reference, such as: styles.css, bootstrap.css, scripts.js, and jquery-3.5.1.js. The purpose of this project is to demonstrate my current skill and knowledge of HTML, CSS, JavaScript, and jQuery, as well as document my progress, during my time learning at Epicodus.
 ## How To Download For Offline Viewing
 
 The only requirement to download and view my project offline is to have an internet browser installed.
@@ -23,7 +23,7 @@ The only requirement to download and view my project offline is to have an inter
 * (2). If it hasn't begun downloading, paste the URL into your preferred web browser's address bar, after which 
 the download should start automatically.
 * (3). Extract the contents of the now downloaded .zip onto any location on your computer, then navigate and open the folder: "PLangSelector".
-* (4). Select and right-click "PLangSelector".
+* (4). Select and right-click "index.html".
 * (5). Select "Open With" in the context menu.
 * (6). Select your preferred internet browser.
 
