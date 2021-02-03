@@ -6,8 +6,6 @@ $(document).ready(function() {
     
     alert('Hmm..Interesting');
     
-    // ----------------------------------------------------------------------------------------------------------------------------
-    
     let qLikeDogsInput = confirm('As a fellow feline, do you think dogs are simply "OK" to be within eyeshot?...Or maybe you think the outrage mob on Whisker® ought to "Cancel" them?');
     
     if (qLikeDogsInput === false) {
@@ -15,8 +13,6 @@ $(document).ready(function() {
     } else {
       $(alert('Hmm...I would say your priorities are bit...off. This will definitely impact your answer.'));
     } 
-    
-    // -----------------------------------------------------------------------------------------------------------------------------
     
     let qCatBellyRubsInput = parseInt(prompt('From 1 to 3, exactly how many belly rubs are allowed until the "clawAndBite()" function is called?'));
     
@@ -51,8 +47,6 @@ $(document).ready(function() {
       }
     }
     
-    // ---------------------------------------------------------------------------------------------------------------------------------
-    
     let qIndoorOutdoorInput = confirm('You enjoy the smell of a wet douglas fir as you defecate out in the great open litterbox?');
     
     if (qIndoorOutdoorInput === true) {
@@ -60,8 +54,6 @@ $(document).ready(function() {
     } else {
       $(alert(' Well I for one find it almost intoxicatedly splendid'));
     }
-    
-    // ----------------------------------------------------------------------------------------------------------------------------------
     
     let qCatchDotInput = confirm('"You frequently try and catch the phase-shifting red photon!" Is it okay to assume this is what you do in your extracurricular activities?');
     
