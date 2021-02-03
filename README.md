@@ -16,6 +16,7 @@
 ## Description
 
 This repository contains HTML files, and sub-folders that contains assets, to which those HTML files reference, such as: styles.css, bootstrap.css, scripts.js, and jquery-3.5.1.js. The purpose of this project is to demonstrate my current skill and knowledge of HTML, CSS, JavaScript, and jQuery, as well as document my progress, during my time learning at Epicodus.
+
 ## How To Download For Offline Viewing
 
 The only requirement to download and view my project offline is to have an internet browser installed.
