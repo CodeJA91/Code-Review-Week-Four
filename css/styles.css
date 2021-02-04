@@ -18,9 +18,9 @@ img {
 #border {
   border-style: solid;
   border-width:thick;
-  border-top-color: yellow;
+  border-top-color: limegreen;
   border-right-color: rgb(0, 247, 255);
-  border-bottom-color: yellow;
+  border-bottom-color: skyblue;
   border-left-color: lime;
   margin-left: 100px;
   margin-right: 100px;
@@ -38,4 +38,13 @@ h1 {
 
 #StartBtn {
   margin-top: 20px;
+}
+
+.form-control {
+  text-align-last: center;
+  
+}
+
+#introshowhide {
+  display: show;
 }
