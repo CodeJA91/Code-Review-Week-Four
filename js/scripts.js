@@ -1,12 +1,6 @@
 $(document).ready(function() {
-
-    $('#StartBtn').click(function() {   
-        
+  $('#StartBtn').click(function() {   
     let qCatBellyRubsInput = parseInt($('#qCatBellyRubsInput').val());
-
-    
-    console.log(qCatBellyRubsInput)
-    
     if (qCatBellyRubsInput === 0) {
       $('#JavaScript').hide();
       $('#Ruby').hide();
@@ -24,7 +18,6 @@ $(document).ready(function() {
       $('#Ruby').hide();
       $('#Python').hide();
     }
-    
     alert('Gadzooks! That was rather...enlightening. My assessment is finished! Your answer lies below...');
     $('#introshowhide').hide();
   });
