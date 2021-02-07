@@ -8,18 +8,62 @@
   <title>Language Selector Extraordinaire</title>
 </head>
 <body>
-  
   <img src="img/pwhisker.jpeg" alt="A cat in professor garb">
-
-  <br><button type="button" class="btn btn-success" id="StartBtn">Begin!</button>
-
-  <div class="container-fluid">
+  <div class="container-fluid" id="introshowhide">
     <div id="border">
       <h1 class="display-1">My Name Is Professor Reginald Wellshire.</h1>
-      <h2>Allow me to assist you in finding your next linguistic venture. I only recommend best. <br>Start by clicking the button above.</h2>
+      <h2>Allow me to assist you in finding your next linguistic venture. I only recommend best.<br>Start by filling out the form below.</h2>
+      <br>
+      <form id="formOne">
+        <div>
+          <label><strong>What is your favorite object of extended and intense observation?</strong></label>
+          <select class="form-control">
+            <option>-Select Option-</option>
+            <option>One Mus Musculus</option>
+            <option>Nepeta Cataria</option>
+            <option>Airborne Avian Creature</option>
+          </select>
+        </div>
+        <div>
+          <label><strong>As a fellow feline, do you think dogs are simply not okay. What is to be done about them?</strong></label>
+          <select class="form-control">
+            <option>-Select Option-</option>
+            <option>Whisker® Ought To "Cancel" Them</option>
+            <option>Stand Your Ground And Growl Ferociously</option>
+            <option>"Befriend" Them To Gain Their Trust And Then Attack In The Night</option>
+          </select>
+        </div>
+        <div>
+          <label><strong>Just how many belly rubs are allowed until the "clawAndBite()" function is called?</strong></label>
+          <select class="form-control" id="qCatBellyRubsInput">
+            <option value="0">-Select Option-</option>
+            <option value="1">One Is Just Fine, But Be Warned!</option>
+            <option value="2">Two Is Too Many!</option>
+            <option value="3">Three?! (Consider that YOU are contributing to the "One-Too-Many-Rubs" policy problem...)</option>
+          </select>
+        </div>
+        <div>
+          <label><strong>As you defecate out in the great open litterbox you prefer the fine scent of:</strong></label>
+          <select class="form-control">
+            <option>-Select Option-</option>
+            <option>The Rustic Smell Of A Finely Aged Douglas Fir</option>
+            <option>The Smell Of A Morning Dew</option>
+            <option>I Actually Prefer The Confines Of My Litterbox</option>
+          </select>
+        </div>
+        <div>
+          <label><strong>When you catch sight of the phase-shifting red photon, what do you do?</strong></label>
+          <select class="form-control">
+            <option>-Select Option-</option>
+            <option>I Attempt To Collect Samples For Further Observation </option>
+            <option>Such Trivial Matters Fail To Peak My Interest</option>
+            <option>Impossible! Such A Feat Is Futile And I Am Beginning To Question My Reality </option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-success" id="StartBtn">Submit</button>
+      </form>
     </div>
   </div>
-
   <div id="JavaScript">
     <div class="container">
       <div id="border">
@@ -27,10 +71,10 @@
         <h1><span style="font-weight:bold"><br>JavaScript</span></h1>
         <img src="/img/js.png" alt="The JavaScript Logo">
         <p>Give it a shot and try <a href="https://www.javascript.com/try">JavaScript</a></p>
+        <button type="button" class="btn btn-success" onclick="location=URL">Retake!</button>
       </div>
     </div>
   </div>
-
   <div id="Python">
     <div class="container">
       <div id="border">
@@ -38,10 +82,10 @@
         <h1><span style="font-weight:bold"><br>Python 3</span></h1>
         <img src="/img/pth.png" alt="The Python 3 Logo">
         <p>Give it a shot and try <a href="https://www.python.org/downloads/">Python 3</a></p>
+        <button type="button" class="btn btn-success" onclick="location=URL">Retake!</button>
       </div>
     </div>
   </div>
-
   <div id="Ruby">
     <div class="container">
       <div id="border">
@@ -49,9 +93,9 @@
         <h1><span style="font-weight:bold"><br>Ruby</span></h1>
         <img src="/img/rr.png" alt="The Ruby Rails Logo">
         <p>Give it a shot and try <a href="https://rubyonrails.org/">Ruby on Rails</a></p>
+        <button type="button" class="btn btn-success" onclick="location=URL">Retake!</button>
       </div>
     </div>
   </div>
-
 </body>
 </html>
